@@ -10,6 +10,10 @@ class FreebeesEcom extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: "FreeBees E-Com", home: Home());
+    return MaterialApp(
+      title: "FreeBees E-Com",
+      debugShowCheckedModeBanner: false,
+      home: Home(),
+    );
   }
 }
