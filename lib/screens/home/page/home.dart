@@ -14,7 +14,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _screens = [
-    Container(height: double.infinity, color: Colors.amber),
+    Container(height: double.infinity, color: Colors.amberAccent),
     Container(height: double.infinity, color: Colors.green),
     Container(height: double.infinity, color: Colors.blue),
     Container(height: double.infinity, color: Colors.red),
