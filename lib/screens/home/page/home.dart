@@ -1,3 +1,4 @@
+import 'package:e_commerce_app/screens/home/widgets/bottom_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 
@@ -12,8 +13,9 @@ class Home extends StatelessWidget {
       appBar: FAppBar(
         title: 'Mega Shop',
         firstIcon: Iconsax.notification_bing_outline,
-        backButton: true,
+        //backButton: true,
       ),
+      bottomNavigationBar: BottomBar(),
     );
   }
 }
